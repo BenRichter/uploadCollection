@@ -1,0 +1,82 @@
+{
+	"items": [{
+		"documentId": "64469d2f-b3c4-a517-20d6-f91ebf85b9da",
+		"visibleEdit": true,
+		"visibleDelete": true,
+		"fileName": "Screenshot.jpg",
+		"mimeType": "image/jpg",
+		"thumbnailUrl": "",
+		"url": "test-resources/sap/m/demokit/sample/UploadCollection/LinkedDocuments/Screenshot.jpg",
+		"attributes": [{
+			"title": "Uploaded By",
+			"text": "Susan Baker"
+		}, {
+			"title": "Uploaded On",
+			"text": "2014-09-03"
+		}, {
+			"title": "File Size",
+			"type": "size",
+			"text": "50"
+		}, {
+			"title": "Version",
+			"text": "1"
+		}],
+		"statuses": [{
+			"title": "First status' title",
+			"text": "First status' text"
+		}]
+	}, {
+		"documentId": "5082cc4d-da9f-2835-2c0a-8100ed47bcde",
+		"visibleEdit": true,
+		"visibleDelete": true,
+		"fileName": "Notes.txt",
+		"mimeType": "text/plain",
+		"thumbnailUrl": "",
+		"url": "test-resources/sap/m/demokit/sample/UploadCollection/LinkedDocuments/Notes.txt",
+		"attributes": [{
+			"title": "Uploaded By",
+			"text": "John Smith"
+		}, {
+			"title": "Uploaded On",
+			"text": "2014-09-02"
+		}, {
+			"title": "File Size",
+			"type": "size",
+			"text": "2266000"
+		}, {
+			"title": "Version",
+			"text": "1"
+		}],
+		"statuses": [{
+			"title": "Status",
+			"text": "None",
+			"state": "None"
+		}]
+	}, {
+		"documentId": "5082cc4d-da9f-2835-2c0a-8100ed47bcdf",
+		"visibleEdit": true,
+		"visibleDelete": true,
+		"fileName": "Document.txt",
+		"mimeType": "text/plain",
+		"thumbnailUrl": "",
+		"attributes": [{
+			"title": "Uploaded By",
+			"text": "J Edgar Hoover"
+		}, {
+			"title": "Uploaded On",
+			"text": "2014-09-01"
+		}, {
+			"title": "File Size",
+			"type": "size",
+			"text": "15000"
+		}, {
+			"title": "Version",
+			"text": "1"
+		}],
+		"statuses": [{
+			"title": "Status",
+			"text": "Success",
+			"state": "Success"
+		}]
+	}]
+}

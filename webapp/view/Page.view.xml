@@ -1,0 +1,41 @@
+<mvc:View
+	height="100%"
+	controllerName="upload.demo.controller.Page"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+
+	<Page showHeader="false">
+		<content>
+	<!--	uploadComplete="onUploadComplete"-->
+			<UploadCollection
+				id="UploadCollection"
+				change="onChange"
+				instantUpload="false"
+				items="{path : '/items', templateShareable : 'true'}">
+				<toolbar>
+					<OverflowToolbar id="myId" >
+						<UploadCollectionToolbarPlaceholder></UploadCollectionToolbarPlaceholder>
+					</OverflowToolbar>
+				</toolbar>
+				<items>
+					<UploadCollectionItem
+						documentId="{documentId}"
+						fileName="{fileName}"
+						mimeType="{mimeType}"
+						thumbnailUrl="{thumbnailUrl}"
+						url="{url}"
+						attributes="{path : 'attributes', templateShareable : 'true'}"
+						selected="{selected}">
+						<attributes>
+							<ObjectAttribute
+								title="{title}"
+								text="{parts : ['text', 'type']}"
+								active="{active}"/>
+						</attributes>
+					</UploadCollectionItem>
+				</items>
+			</UploadCollection>
+		</content>
+	</Page>
+</mvc:View>
